@@ -1,0 +1,6 @@
+load("@rules_pkg//pkg:pkg.bzl", "pkg_tar")
+
+pkg_tar(
+    name = "tar",
+    srcs = [],
+)
